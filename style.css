@@ -1,0 +1,30 @@
+header {
+    background-color: #cccccc;
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+nav {
+    display: block;
+    /* float: none; */
+}
+
+ul {
+    /* text-decoration: none; */
+    list-style-type: none;
+    /* display: block; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1bebe;
+    position: sticky;
+}
+
+li {
+    float: left;
+    padding: 14px 20px;
+}
+
+body {
+    margin: 0;
+}
