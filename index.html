@@ -4,6 +4,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
         <title>Youtube.com</title>
 
 
@@ -16,82 +18,112 @@
                 <nav>
                     
                     <ul>
-                        <div class="left-li">
+                        <div class="header-con">
+                                <div class="left-li">
 
-                            <li>///</li>
-                            <li>Youtube.ch</li>
+                                    <li><i class="fas fa-bars"></i></li>
+                                    <li><i class="fab fa-youtube"></i> Youtube</li>
 
-                        </div>
-                        
-                        <div class="search-container">
-
-                                <input type="text" placeholder="Search.." name="search">
-
-                                <button type="submit">
-
-                                    <i class="fa fa-search"></i>
+                                </div>
                                 
-                                </button>
-                        
-                        </div>
+                                <div class="search-container">
 
-                        <div class="right-li">
-                            <li>Upload</li>
-                            <li>Services</li>
-                            <li>Share</li>
-                            <li>Bell</li>
-                            <li>Acounts</li>
-                    </div>
-                    
+                                        <input type="text" placeholder="Suchen" name="search">
+
+                                        <button type="submit">
+
+                                            <i class="fas fa-search"></i>
+                                        
+                                        </button>
+                                
+                                </div>
+
+                                <div class="right-li">
+                                    <li><i class="fas fa-video"></i></li>
+                                    <li><i class="fas fa-th"></i></li>
+                                    <li><i class="far fa-share-square"></i></li>
+                                    <li><i class="fas fa-bell"></i></li>
+                                    <li><i class="fas fa-user-circle"></i></li>
+                                </div>
+                        </div>  
                     </ul>
 
                 </nav>
         </header>
 
-        <section class="Content">
+        <div class="wrapper">
+                <section class="Content">
 
-            <div class="video-content">
+                    <div class="video-content">
 
-                <div class="video">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/I9O3tPKWw_I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+                        <div class="iframe-container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/I9O3tPKWw_I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
 
-                <div class="video-descri">
-                    <h1>Family Guy - Peter attacks Cleveland</h1>
-                    <p class="views">225 Views</p>
-                    <p class="likes">24</p>
-                    <p class="dislikes">1</p>
-                    <p class="share">Share</p>
-                    <p class="save-video">Speichern</p>
-                    <p class="dotes-options">...</p>
-                </div>
+                        <div class="video-descri">
+                            
+                            <div class="video-title"><h1>Family Guy - Peter attacks Cleveland</h1>
+                                <p class="views">225 Views</p>
+                            </div>
 
-                <div class="user-section">
+                            <div class="react">
+                                <p class="likes"><i class="far fa-thumbs-up"></i> 24 </p>
+                                <p class="dislikes"><i class="fas fa-thumbs-down"></i> 1</p>
+                                <p class="share"><i class="fas fa-share"></i>Teilen</p>
+                                <p class="save-video"><i class="fas fa-bars"></i></i>> Speichern</p>
+                                <p class="dotes-options"><i class="fa fa-ellipsis-h"></i></p>
+                            </div>
+                            
+                        </div>
 
-                    <div class="user-descri">
+                        <div class="user-section">
 
-                        <p class="user-name">Quahog Land</p>
-                        <p class="upload-date">Am 29.05.2019 veröffentlicht</p>
-                        <p class="description">Family Guy - Peter attacks Cleveland</p>
-                        <p class="categorie">Kategorie: Menschen & Blogs</p>
+                            <div class="user-descri">
+
+                                <p class="user-name">Quahog Land</p>
+                                <p class="upload-date">Am 29.05.2019 veröffentlicht</p>
+                                <p class="description">Family Guy - Peter attacks Cleveland</p>
+                                <p class="categorie">Kategorie: Menschen & Blogs</p>
+                                
+                            </diV>
+
+
+                        </div>
+
+                        <div class="comment-section">
+
+                            <p>8 Kommentare</p>
+                            <p>Sortieren Nach</p>
+
+
+                        </div>
+
+                    </div>
+
+
+                </section>
+                <section class="sidebar">
+
+                    <div class="next-v">
+                        <p>Nächstes Video</p>
+                    </div>
+
+                    <div class="suggested-video">
                         
-                    </diV>
+                        <div class="vid-1">
+
+                        </div>
+                    
+                    </div>
+                
 
 
-                </div>
 
-                <div class="comment-section">
+                </section>
 
-                    <p>8 Kommentare</p>
-                    <p>Sortieren Nach</p>
+        </div>
 
-
-                </div>
-
-            </div>
-
-
-        </section>
+        
 
 
 
