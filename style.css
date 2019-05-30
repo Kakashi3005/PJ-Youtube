@@ -1,6 +1,10 @@
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #fff;
+
 }
 
 
@@ -87,7 +91,7 @@ div.search-container button  {
 
 .wrapper {
     max-width: 1100px;
-    background-color: #e6e6e6;
+    background-color: #000;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 70% 30%;
@@ -102,7 +106,7 @@ div.search-container button  {
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border-bottom: 1px solid #dadada;
+    border-bottom: 1px solid rgba(255,255,255,.25);
     padding-bottom: 5px;
 }
 
@@ -119,6 +123,7 @@ div.search-container button  {
 div.video-descri h1 {
     font-size: 16px;
     margin-bottom: -8px;
+    font-weight: 300;
 }
 
 
@@ -164,3 +169,67 @@ div.react p {
   }
 
 
+/* user Section beginns here */
+
+.user-descri {
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+}
+
+
+
+.u-logo {
+    width: 50px;
+    padding-top: 20px;
+}
+
+p.user-name {
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+
+p.upload-date {
+    font-size: 0.7em;
+    color: #c1c1c1;
+}
+
+p.description {
+    padding-right: 10%;
+    font-size: 0.8em;
+}
+
+p.categorie {
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+
+p.comment {
+    float: left;
+    padding-right: 40px;
+}
+
+div.comment-section p {
+    float: left;
+    font-size: 0.8em;
+}
+
+
+button#b-abo {
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.8em;
+    padding-left: 13px;
+    padding-right: 13px;
+    float: left;
+    margin-left: 55px;
+    margin-top: 13px;
+}
+
+.abo {text-align: right;}
+
+p.bell {
+    margin-top: 20px;
+}
